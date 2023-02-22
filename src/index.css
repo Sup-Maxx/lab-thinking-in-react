@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table{
+  border: 2px solid black;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+th{
+  background-color: lightgray;
+}
+
+td{
+  padding: 5px 0;
+  font-size: 1.25rem;
+}
+
+tr:hover{
+  scale: 110%;
+}
+
+tr:nth-child(even){
+  background-color: rgb(194, 231, 243);
+}
+
+input{
+  width: 200px;
+  margin-bottom: 20px;
+}
